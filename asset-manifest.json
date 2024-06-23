@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-profile/static/css/main.41378b93.css",
+    "main.js": "/react-profile/static/js/main.203e70ae.js",
+    "static/media/avatar-coffe.png": "/react-profile/static/media/avatar-coffe.cd51167941d80cab5777.png",
+    "static/media/gpt-dev-terroso.jpg": "/react-profile/static/media/gpt-dev-terroso.32a7a9125c0b75ebb412.jpg",
+    "static/media/profilePicture.jpg": "/react-profile/static/media/profilePicture.525a9ba78647cb64f837.jpg",
+    "static/media/coffee.png": "/react-profile/static/media/coffee.7eef7cab78aac75e3277.png",
+    "index.html": "/react-profile/index.html",
+    "main.41378b93.css.map": "/react-profile/static/css/main.41378b93.css.map",
+    "main.203e70ae.js.map": "/react-profile/static/js/main.203e70ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41378b93.css",
+    "static/js/main.203e70ae.js"
+  ]
+}
