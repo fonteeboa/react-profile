@@ -1,0 +1,25 @@
+.ant-float-btn-default .ant-float-btn-body {
+  background-color: #F8F4E1 !important;
+}
+
+.ant-float-btn-default .ant-float-btn-body:hover, .ant-float-btn-icon:hover {
+  background-color: #B5C18E !important;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.ant-float-btn-body {
+  background-color: #F8F4E1 !important;
+}
+
+.ant-float-btn-body:hover {
+  background-color: #B5C18E !important;
+}
+
+.ant-float-btn-icon {
+  color: #523a28 !important;
+}
+
+.ant-float-btn-group {
+  right: 3% !important;
+}

@@ -1,0 +1,97 @@
+.projects-container {
+  padding-bottom: 2%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.title-row {
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem !important;
+  font-weight: bold;
+  background: #543310;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.carousel-container {
+  width: 60%;
+  min-width: 40vh !important;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.carousel-slide {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-slide-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  filter: blur(10px);
+  transform: scale(1.2);
+  z-index: 0;
+}
+
+.carousel-caption {
+  position: relative;
+  height: 300px;
+  text-align: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  color: white;
+  z-index: 1;
+}
+
+.carousel-caption h3 {
+  padding-top: 3%;
+  margin: 0 0 10px;
+  font-size: 1.5rem;
+}
+
+.carousel-caption p {
+  padding-top: 3%;
+  margin: 0 0 10px;
+  font-size: 1rem;
+}
+
+.custom-alert {
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.ant-carousel .slick-next {
+  color: #543310 !important;
+}
+
+.ant-carousel .slick-dots li button,
+.ant-carousel .slick-dots li.slick-active button {
+  background-color: #543310 !important;
+}
+
+.projects-div {
+  height: 60vh !important;
+  max-height: 60vh !important;
+  min-height: 60vh !important;
+  background: #EAD8C0;
+}

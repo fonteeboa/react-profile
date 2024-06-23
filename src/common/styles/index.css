@@ -1,0 +1,163 @@
+body, html, .root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  background: linear-gradient(135deg, #6F4E37, #855c3f);
+}
+
+h1,h2,h3,h4,h5,h6,span,em,b, .paragraph {
+  font-family: 'Roboto Mono', monospace !important;
+  font-optical-sizing: auto !important;
+}
+
+
+h1,h2,h3,h4,h5,h6,span,em,b,.ant-timeline, .ant-timeline-item-label {
+  color: #FFF2D7;
+}
+.paragraph {
+  color: #B5C18E;
+}
+
+.masterContainer {
+  min-width: 98%;
+  color: #FFF2D7;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(75, 46, 42, 0.2), 
+              0 6px 20px rgba(75, 46, 42, 0.19);
+}
+
+.containerItem {
+  min-height: 100vh;
+  max-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  animation: reveal ease-in-out both;
+  animation-timeline: view(block);
+  animation-range: cover 0% cover 50%;
+}
+
+.parentContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 95vmin;
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.height100 {
+  min-height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.body {
+  min-height: 100vh;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: #FEFAF6;
+}
+
+.globalContainer {
+  min-width: 100vh;
+  max-width: 100vh;
+  width: 100vh;
+}
+
+@media screen and (max-height: 600px), (max-width: 460px) {
+  #root {
+    display: none;
+  }
+}
+
+.logo-image {
+  width: 2rem;
+  fill: #FEFAF6 !important;
+}
+
+.container-item-profile {
+  color:#FFF2D7 !important;
+  background: linear-gradient(135deg, #6F4E37, #855c3f);
+}
+
+.container-item-aboutMe {
+  background-color: #AF8F6F;
+}
+
+.container-item-jobs {
+  background-color: #8d6c53;
+}
+
+.container-item-projects {
+  background-color: #A79277;
+}
+
+.container-item-social {
+  background-color: #FFF2D7;
+}
+.polygon-container {
+  position: relative;
+  width: 500px; /* Defina a largura desejada */
+  height: 500px; /* Defina a altura desejada */
+}
+
+.polygon-shadow {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 27% 73% 24% 76% / 84% 14% 86% 16%; /* Forma do polígono */
+  z-index: 1;
+  filter: blur(1px); /* Adiciona um desfoque para a sombra */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra ao redor do polígono */
+  animation-delay: 0.7s;
+}
+
+.polygon-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 27% 73% 24% 76% / 84% 14% 86% 16%; /* Forma do polígono */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.polygon-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.7); /* Adiciona um brilho ao redor da imagem */
+}
+
+.padding3 {
+  padding: 3%;
+}
