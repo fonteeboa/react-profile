@@ -6,8 +6,8 @@ import ProgressBar from '../common/components/loading/coffe/progressBar';
 function App() {
   const [loading, setLoading] = useState(true);
   const [exitClass, setExitClass] = useState(true);
-  setTimeout(() => setLoading(false), 4300)
-  setTimeout(() => setExitClass(false), 4000)
+  setTimeout(() => setLoading(true), 4300)
+  setTimeout(() => setExitClass(true), 4000)
   const coffeeClassName = exitClass ? '' : 'animate__animated animate__fadeOutLeftBig';
   const constinersClassName = loading ? '' : 'animate__animated animate__fadeIn';
   return (
