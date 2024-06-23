@@ -1,7 +1,7 @@
 .about-me-container {
   padding: 40px;
   background-color: #f0f2f5;
-  height: 60vh;
+  min-height: 60vh;
 }
 
 .about-me-content {
