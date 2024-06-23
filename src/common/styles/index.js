@@ -12,6 +12,6 @@ import './profileCard.css';
 import './projects.css';
 import './social.css';
 import './mediaTablet.css';
-
+import './mediaPhone.css';
 
 export const importCss = () => {};

@@ -1,0 +1,150 @@
+@media screen and (max-width: 460px) {
+    .body {
+        max-width: 100%;
+    }
+
+    .progress-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding-left: 0%;
+    }
+
+    .ant-steps {
+        padding-left: 11%;
+    }
+
+    .steps-content {
+        justify-content: center !important;
+        position: relative !important;
+        min-width: 100% !important;
+    }
+
+    .custom-progress-bar .ant-steps .ant-steps-item {
+        max-width: 250px !important;
+    }
+
+    span {
+        font-size: 0.7rem;
+    }
+
+    .polygon-container {
+        width: 380px !important;
+        height: 400px !important;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    h1 {
+        font-size: 1.3rem !important;
+    }
+
+    .paragraph {
+        width: 400px;
+    }
+
+    .styled-company-image {
+        display: none;
+    }
+    .padding3 {
+        padding: 6%;
+    }
+
+    .jobs-image-col {
+        padding: 0%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .body {
+        max-width: 100%;
+    }
+
+
+    .progress-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding-left: 0%;
+    }
+
+    .ant-steps {
+        padding-left: 11%;
+    }
+
+    .steps-content {
+        justify-content: center !important;
+        position: relative !important;
+        min-width: 100% !important;
+    }
+
+    .custom-progress-bar .ant-steps .ant-steps-item {
+        max-width: 250px !important;
+    }
+
+    span, nav {
+        font-size: 0.7rem;
+    }
+
+    .polygon-container {
+        width: 300px !important;
+        height: 350px !important;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    h1 {
+        font-size: 1.1rem !important;
+        padding-top: 3rem !important;
+    }
+
+    .paragraph {
+        width: 300px;
+    }
+
+    .styled-company-image {
+        display: none;
+    }
+
+    .breadCrumb {
+        padding: 0% !important;
+        padding-top: 1rem !important;
+    }
+
+    .padding3 {
+        padding: 6%;
+    }
+
+    .jobs-image-col {
+        padding: 0%;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .main-content {
+        display: none;
+    }
+
+    .warning-message {
+        display: block;
+        text-align: center;
+        padding: 20px;
+        background-color: #ffcc0000;
+        color: #FFF2D7;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .main-content {
+        display: block;
+    }
+
+    .warning-message {
+        display: none;
+    }
+}

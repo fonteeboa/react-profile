@@ -38,7 +38,7 @@ const steps = [
   },
 ];
 
-function ProgressBar({ className }) {
+function ProgressBar({ className = '' }) {
   const [currentDirection, setCurrentDirection] = useState('horizontal')
   const [currentStep, setCurrentStep] = useState(0);
   useEffect(() => {

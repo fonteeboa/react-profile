@@ -1,4 +1,4 @@
-@media screen and (max-height: 768px) {
+@media screen and (max-width: 769px) {
     .custom-progress-bar .ant-steps-item-title {
         margin-left: 0px !important;
     }
@@ -6,7 +6,6 @@
     .about-me-container {
         padding: 40px;
         background-color: #f0f2f5;
-        /* height: 60vh; */
     }
 
     .jobs-container {
@@ -19,4 +18,90 @@
         min-height: 50vh !important;
     }
 
+    .progress-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding-left: 0%;
+    }
+
+    .ant-steps {
+        padding-left: 11%;
+    }
+
+    .steps-content {
+        justify-content: center !important;
+        position: relative !important;
+        min-width: 100% !important;
+    }
+
+    .ant-steps.ant-steps-vertical {
+        align-items: center !important;
+    }
+
+    .custom-progress-bar .ant-steps .ant-steps-item {
+        max-width: 250px !important;
+    }
+
 }
+
+/* 
+
+
+
+  .body {
+        max-width: 100%;
+    }
+
+    .progress-container {
+        justify-content: flex-end !important;
+        width: 75% !important;
+    }
+
+    .steps-content {
+        justify-content: center !important;
+        position: relative !important;
+        min-width: 350px !important;
+    }
+
+    .ant-steps.ant-steps-vertical {
+        align-items: flex-end !important;
+    }
+
+    .custom-progress-bar .ant-steps .ant-steps-item {
+        max-width: 250px !important;
+    }
+
+    span {
+        font-size: 0.7rem;
+    }
+
+    .polygon-container {
+        width: 380px !important;
+        height: 400px !important;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    h1 {
+        font-size: 1.3rem !important;
+    }
+
+    .paragraph {
+        width: 400px;
+    }
+
+    .styled-company-image {
+        display: none;
+    }
+    .padding3 {
+        padding: 6%;
+    }
+
+    .jobs-image-col {
+        padding: 0%;
+    }
+
+*/
