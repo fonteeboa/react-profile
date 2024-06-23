@@ -1,0 +1,22 @@
+@media screen and (max-height: 768px) {
+    .custom-progress-bar .ant-steps-item-title {
+        margin-left: 0px !important;
+    }
+
+    .about-me-container {
+        padding: 40px;
+        background-color: #f0f2f5;
+        /* height: 60vh; */
+    }
+
+    .jobs-container {
+        min-height: 59vh !important;;
+    }
+
+
+    .projects-div {
+        max-height: 50vh !important;
+        min-height: 50vh !important;
+    }
+
+}

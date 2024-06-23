@@ -1,0 +1,76 @@
+
+.jobs-container {
+  height: 59vh;
+  max-height: 59vh;
+  min-height: 59vh;
+}
+
+.jobs-timeline {
+  padding: 20px;
+  color: #4b2e2a;
+}
+
+
+.jobs-timeline-item a {
+  text-decoration: none !important;
+  color: #FFF2D7 !important;
+}
+
+.jobs-timeline-item a:hover {
+  color: #D8AE7E !important;
+}
+
+.jobs-company-logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.jobs-image-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.jobs-company-image {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ant-timeline-item-head {
+  color: #4b2e2a !important;
+  border-color:#4b2e2a !important
+}
+
+.css-n2itgq-MuiTypography-root-MuiTimelineOppositeContent-root {
+  color: #D8AE7E !important;
+}
+
+.css-v6mo1y-MuiTimelineDot-root, .css-1ami7lv-MuiTimelineConnector-root{
+  background-color: #B5C18E !important;
+  color: #B5C18E !important;
+  border-color: #B5C18E !important;
+}
+
+.styled-company-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.zoomImg {
+  transition: transform 0.3s ease-in-out;
+}
+.zoomImg:hover {
+  transform: scale(1.05);
+}
+
+.planeImg {
+  height: 400px;
+  transform: rotate(45deg);  
+  position: absolute;
+}
