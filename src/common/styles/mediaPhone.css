@@ -37,11 +37,11 @@
     }
 
     h1 {
-        font-size: 1.3rem !important;
+        font-size: 1.2rem !important;
     }
 
     .paragraph {
-        width: 400px;
+        width: 85%;
     }
 
     .padding3 {
@@ -98,7 +98,7 @@
     }
 
     .paragraph {
-        width: 300px;
+        width: 85%;
     }
 
     .breadCrumb {
