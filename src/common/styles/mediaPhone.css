@@ -1,6 +1,4 @@
-/* Smartphones até 460px de largura */
-
-@media screen and (max-width: 460px) and (min-width: 459px) {
+@media screen and (max-width: 460px) {
     .body {
         max-width: 100%;
     }
@@ -46,10 +44,6 @@
         width: 400px;
     }
 
-    .styled-company-image {
-        display: none;
-    }
-
     .padding3 {
         padding: 6%;
     }
@@ -58,8 +52,6 @@
         padding: 0%;
     }
 }
-
-/* Smartphones até 375px de largura */
 
 @media screen and (max-width: 375px) {
     .body {
@@ -109,10 +101,6 @@
         width: 300px;
     }
 
-    .styled-company-image {
-        display: none;
-    }
-
     .breadCrumb {
         padding: 0% !important;
         padding-top: 1rem !important;
@@ -127,8 +115,14 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    
+    .styled-company-image {
+        display: none !important;
+    }
+}
+
 /* general control */
-/* Dispositivos com largura inferior a 320px */
 @media screen and (max-width: 319px) {
     .main-content {
         display: none;
@@ -144,7 +138,6 @@
     }
 }
 
-/* Dispositivos com largura de pelo menos 320px */
 @media screen and (min-width: 320px) and (min-height: 400px) {
     .main-content {
         display: block;
