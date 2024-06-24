@@ -1,4 +1,6 @@
-@media screen and (max-width: 460px) {
+/* Smartphones até 460px de largura */
+
+@media screen and (max-width: 460px) and (min-width: 459px) {
     .body {
         max-width: 100%;
     }
@@ -32,7 +34,6 @@
 
     .polygon-container {
         width: 380px !important;
-        height: 400px !important;
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
@@ -48,6 +49,7 @@
     .styled-company-image {
         display: none;
     }
+
     .padding3 {
         padding: 6%;
     }
@@ -57,11 +59,12 @@
     }
 }
 
+/* Smartphones até 375px de largura */
+
 @media screen and (max-width: 375px) {
     .body {
         max-width: 100%;
     }
-
 
     .progress-container {
         position: relative;
@@ -86,13 +89,13 @@
         max-width: 250px !important;
     }
 
-    span, nav {
+    span,
+    nav {
         font-size: 0.7rem;
     }
 
     .polygon-container {
         width: 300px !important;
-        height: 350px !important;
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
@@ -124,7 +127,9 @@
     }
 }
 
-@media screen and (max-width: 374px) {
+/* general control */
+/* Dispositivos com largura inferior a 320px */
+@media screen and (max-width: 319px) {
     .main-content {
         display: none;
     }
@@ -133,18 +138,67 @@
         display: block;
         text-align: center;
         padding: 20px;
-        background-color: #ffcc0000;
+        background-color: #ffcc00;
         color: #FFF2D7;
         font-size: 18px;
     }
 }
 
-@media screen and (min-width: 375px) {
+/* Dispositivos com largura de pelo menos 320px */
+@media screen and (min-width: 320px) and (min-height: 400px) {
     .main-content {
         display: block;
     }
 
     .warning-message {
         display: none;
+    }
+}
+
+/* height control */
+@media screen and (max-height: 769px) {
+    .coffee {
+        height: 12rem !important;
+    }
+
+    .custom-progress-bar {
+        padding-top: 2%;
+    }
+
+    .polygon-container {
+        height: 15rem !important;
+    }
+
+    h1 {
+        padding-top: 1rem !important;
+    }
+
+    .projects-div {
+        height: 100% !important;
+        min-height: 100% !important;
+    }
+
+}
+
+@media screen and (min-height: 770px) and (max-height: 896px) {
+    .coffee {
+        height: 12rem !important;
+    }
+
+    .custom-progress-bar {
+        padding-top: 2%;
+    }
+
+    .polygon-container {
+        height: 20rem !important;
+    }
+
+    h1 {
+        padding-top: 1rem !important;
+    }
+
+    .projects-div {
+        height: 100% !important;
+        min-height: 100% !important;
     }
 }
