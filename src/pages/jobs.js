@@ -57,44 +57,42 @@ const workExperiences = [
 
 const Jobs = () => {
   return (
-    <>
-      <div className="jobs-container" data-testid="jobs-container">
-        <Row className="content-row flex center jobs-content-row">
-          <Col xs={24} md={12} className="jobs-image-col  jobs-timeline-col animate__animated animate__fadeIn">
-            <Timeline position="alternate" className="jobs-timeline" data-testid="jobs-timeline">
-              {workExperiences.map((experience, index) => (
-                <TimelineItem key={index} className="jobs-timeline-item">
-                  <TimelineOppositeContent color="text.secondary">
-                    {experience.period}
-                  </TimelineOppositeContent>
-                  <TimelineSeparator>
-                    <TimelineDot />
-                    {index < workExperiences.length - 1 && <TimelineConnector />}
-                  </TimelineSeparator>
-                  <TimelineContent>
-                    <Tooltip title={experience.responsibilities} arrow>
-                      <Typography variant="h6" component="span">
-                        <a href={experience.link} target="_blank" rel="noopener noreferrer">
-                          <img
-                            src={experience.logo}
-                            alt={experience.company}
-                            className="company-logo jobs-company-logo"
-                          />
-                          {experience.company} - {experience.position}
-                        </a>
-                      </Typography>
-                    </Tooltip>
-                  </TimelineContent>
-                </TimelineItem>
-              ))}
-            </Timeline>
-          </Col>
-          <Col xs={24} md={12} className="jobs-image-col animate__animated animate__backInRight">
-            <img src={companyImage} alt="Company Overview" className="styled-company-image zoomImg" data-testid="jobs-img"/>
-          </Col>
-        </Row>
-      </div>
-    </>
+    <div className="jobs-container" data-testid="jobs-container">
+      <Row className="content-row flex center jobs-content-row">
+        <Col xs={24} md={12} className="jobs-image-col  jobs-timeline-col animate__animated animate__fadeIn">
+          <Timeline position="alternate" className="jobs-timeline" data-testid="jobs-timeline">
+            {workExperiences.map((experience, index) => (
+              <TimelineItem key={index} className="jobs-timeline-item">
+                <TimelineOppositeContent color="text.secondary">
+                  {experience.period}
+                </TimelineOppositeContent>
+                <TimelineSeparator>
+                  <TimelineDot />
+                  {index < workExperiences.length - 1 && <TimelineConnector />}
+                </TimelineSeparator>
+                <TimelineContent>
+                  <Tooltip title={experience.responsibilities} arrow>
+                    <Typography variant="h6" component="span">
+                      <a href={experience.link} target="_blank" rel="noopener noreferrer">
+                        <img
+                          src={experience.logo}
+                          alt={experience.company}
+                          className="company-logo jobs-company-logo"
+                        />
+                        {experience.company} - {experience.position}
+                      </a>
+                    </Typography>
+                  </Tooltip>
+                </TimelineContent>
+              </TimelineItem>
+            ))}
+          </Timeline>
+        </Col>
+        <Col xs={24} md={12} className="jobs-image-col animate__animated animate__backInRight">
+          <img src={companyImage} alt="Company Overview" className="styled-company-image zoomImg" data-testid="jobs-img" />
+        </Col>
+      </Row>
+    </div>
   );
 };
 
