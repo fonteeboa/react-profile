@@ -28,14 +28,15 @@ const Projects = () => {
 
   return (
     <div className='projects-div'>
-      <div className='projects-container'>
+      <div className='projects-container' data-testid="projects-container">
         <Row className="title-row" justify="center">
-          <Title level={2} className="title">Projetos GitHub</Title>
+          <Title level={2} className="title" data-testid="projects-title">Projetos GitHub</Title>
         </Row>
         <Row justify="center" className="content-row">
           <Col span={24} className="carousel-wrapper">
             {error ? (
               <Alert
+                data-testid="projects-alert"
                 message="Não foi possível buscar informações da API do GitHub."
                 description={
                   <div>
@@ -51,7 +52,7 @@ const Projects = () => {
               />
             ) : (
               <div className='carouse'>
-                <Carousel autoplay arrows className='carousel-container'>
+                <Carousel autoplay="true" arrow="true" className='carousel-container' data-testid="projects-carousel">
                   {repos.map(repo => (
                     <div key={repo.id} className="carousel-slide">
                       <div className="carousel-slide-bg" style={{ backgroundImage: `url(https://opengraph.githubassets.com/1/${repo.full_name})` }} />

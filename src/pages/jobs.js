@@ -58,10 +58,10 @@ const workExperiences = [
 const Jobs = () => {
   return (
     <>
-      <div className="jobs-container">
+      <div className="jobs-container" data-testid="jobs-container">
         <Row className="content-row flex center jobs-content-row">
           <Col xs={24} md={12} className="jobs-image-col  jobs-timeline-col animate__animated animate__fadeIn">
-            <Timeline position="alternate" className="jobs-timeline">
+            <Timeline position="alternate" className="jobs-timeline" data-testid="jobs-timeline">
               {workExperiences.map((experience, index) => (
                 <TimelineItem key={index} className="jobs-timeline-item">
                   <TimelineOppositeContent color="text.secondary">
@@ -90,7 +90,7 @@ const Jobs = () => {
             </Timeline>
           </Col>
           <Col xs={24} md={12} className="jobs-image-col animate__animated animate__backInRight">
-            <img src={companyImage} alt="Company Overview" className="styled-company-image zoomImg" />
+            <img src={companyImage} alt="Company Overview" className="styled-company-image zoomImg" data-testid="jobs-img"/>
           </Col>
         </Row>
       </div>

@@ -5,12 +5,13 @@ import { GithubOutlined, LinkedinOutlined, PaperClipOutlined } from '@ant-design
 const Social = () => {
 
   return (
-    <div className="social-container">
+    <div className="social-container" data-testid="social-container">
       <FloatButton.Group
         trigger="hover"
         style={{
         }}
         icon={<PaperClipOutlined />}
+        data-testid="float-button-group"
       >
         <FloatButton
           icon={<GithubOutlined />}
@@ -19,6 +20,7 @@ const Social = () => {
           type="primary"
           shape="circle"
           className="social-button github"
+          data-testid="github-button"
         />
         <FloatButton
           icon={<LinkedinOutlined />}
@@ -27,6 +29,7 @@ const Social = () => {
           type="primary"
           shape="circle"
           className="social-button linkedin"
+          data-testid="linkedin-button"
         />
       </FloatButton.Group>
     </div>

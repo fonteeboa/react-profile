@@ -39,8 +39,9 @@ const steps = [
 ];
 
 function ProgressBar({ className = '' }) {
-  const [currentDirection, setCurrentDirection] = useState('horizontal')
+  const [currentDirection, setCurrentDirection] = useState('horizontal');
   const [currentStep, setCurrentStep] = useState(0);
+
   useEffect(() => {
     if (currentStep < steps.length) {
       const timer = setTimeout(() => setCurrentStep(currentStep + 1), 700);
@@ -56,28 +57,28 @@ function ProgressBar({ className = '' }) {
   }, []);
 
   return (
-    <div className={className !== '' ? "progress-container " + className : "progress-container"}>
-
-      <div className="custom-progress-bar">
+    <div className={className !== '' ? "progress-container " + className : "progress-container"} data-testid="progress-container">
+      <div className="custom-progress-bar" data-testid="custom-progress-bar">
         <Steps
           current={currentStep}
           labelPlacement="vertical"
           direction={currentDirection}
+          data-testid="steps"
         >
           {steps.map((item, index) => (
             <Step
               key={index}
               title={item?.title}
               icon={item?.icon}
+              data-testid={`step-${index}`}
             />
           ))}
         </Steps>
-        <div className="steps-content" style={{ marginTop: '20px', textAlign: 'center' }}>
+        <div className="steps-content" style={{ marginTop: '20px', textAlign: 'center' }} data-testid="steps-content">
           {steps[currentStep] ? steps[currentStep].description : 'Loading page..'}
         </div>
       </div>
     </div>
-
   );
 }
 

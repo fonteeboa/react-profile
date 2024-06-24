@@ -11,10 +11,10 @@ function App() {
   const coffeeClassName = exitClass ? '' : 'animate__animated animate__fadeOutLeftBig';
   const constinersClassName = loading ? '' : 'animate__animated animate__fadeIn';
   return (
-    <div className="body">
-      <section className='main-content'>
+    <div className='body'>
+      <section className='main-content' data-testid='main-content'>
         {loading ?
-          <div className={"center height100 flex flex-column " + coffeeClassName}>
+          <div className={'center height100 flex flex-column ' + coffeeClassName}>
             <CoffeeLoading />
             <ProgressBar />
           </div>
@@ -24,7 +24,7 @@ function App() {
           </div>
         }
       </section>
-      <section className='warning-message'>
+      <section className='warning-message' data-testid='warning-message'>
       Desculpe, mas esta aplicação não é compatível com telas menores que 320px de largura. Por favor, utilize um dispositivo com uma tela maior.
       </section>
     </div>
