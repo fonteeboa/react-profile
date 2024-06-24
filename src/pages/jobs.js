@@ -60,7 +60,7 @@ const Jobs = () => {
     <>
       <div className="jobs-container">
         <Row className="content-row flex center jobs-content-row">
-          <Col xs={24} md={12} className="jobs-image-col  jobs-timeline-col animate__animated animate__flip">
+          <Col xs={24} md={12} className="jobs-image-col  jobs-timeline-col animate__animated animate__fadeIn">
             <Timeline position="alternate" className="jobs-timeline">
               {workExperiences.map((experience, index) => (
                 <TimelineItem key={index} className="jobs-timeline-item">
