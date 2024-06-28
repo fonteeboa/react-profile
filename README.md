@@ -23,4 +23,4 @@ Esta versão do portfólio foi criada em tons terrosos, com base na ideia de caf
 
 ## Acesso ao Portfólio
 Você pode acessar a versão publicada do meu portfólio no Vercel através do seguinte link:
-https://vercel.com/fbprojects/react-profile
+https://react-profile-black.vercel.app

@@ -21,4 +21,4 @@ This version of the portfolio was created in earthy tones, inspired by the idea 
 
 ## Access to the Portfolio
 You can access the published version of my portfolio on Vercel through the following link:
-https://vercel.com/fbprojects/react-profile
+https://react-profile-black.vercel.app
