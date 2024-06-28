@@ -11,16 +11,14 @@
 [![Quality Gate overall Status](https://sonarcloud.io/api/project_badges/measure?project=fonteeboa_react-profile&metric=sqale_rating)](https://sonarcloud.io/summary/overall?id=fonteeboa_react-profile)
 [![Quality Gate overall Status](https://sonarcloud.io/api/project_badges/measure?project=fonteeboa_react-profile&metric=coverage)](https://sonarcloud.io/summary/overall?id=fonteeboa_react-profile)
 
-Bem-vindo ao repositório do meu portfólio pessoal, desenvolvido com React! Este projeto foi criado para servir como uma plataforma para apresentar minhas habilidades, experiências e projetos de forma organizada e profissional. A aplicação inclui diversas seções, como "Sobre Mim", "Meus Trabalhos", "Minhas Habilidades Técnicas" e "Contato". O objetivo principal é criar uma interface amigável que permita uma fácil comunicação com possíveis empregadores e colaboradores.
+Welcome to the repository of my personal portfolio, developed with React! This project was created to serve as a platform to showcase my skills, experiences, and projects in an organized and professional manner. The application includes various sections such as "About Me", "My Work", "My Technical Skills", and "Contact". The main goal is to create a user-friendly interface that facilitates easy communication with potential employers and collaborators.
 
-## Visão Geral
+## Overview
+This portfolio is a web application developed with React, aimed at displaying my skills and experiences interactively and visually. It includes detailed sections about my previous projects, my technical skills, and contact information to facilitate communication with potential employers and collaborators.
 
-Este portfólio é uma aplicação web desenvolvida em React, com o objetivo de exibir minhas habilidades e experiências de forma interativa e visualmente atraente. Ele inclui seções detalhadas sobre meus projetos anteriores, minhas competências técnicas e informações de contato para facilitar a comunicação com empregadores e colaboradores em potencial.
+## Visual Style
+This version of the portfolio was created in earthy tones, inspired by the idea of coffee, providing a warm and professional appearance.
 
-## Estilo Visual
-
-Esta versão do portfólio foi criada em tons terrosos, com base na ideia de café, proporcionando uma aparência acolhedora e profissional.
-
-## Acesso ao Portfólio
-Você pode acessar a versão publicada do meu portfólio no Vercel através do seguinte link:
+## Access to the Portfolio
+You can access the published version of my portfolio on Vercel through the following link:
 https://vercel.com/fbprojects/react-profile
