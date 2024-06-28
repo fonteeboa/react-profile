@@ -49,7 +49,7 @@ describe('Social Component', () => {
   it('should render the Linkedin FloatButton with correct attributes', () => {
     const linkedinButton = screen.getByTestId('linkedin-button');
     expect(linkedinButton).toBeInTheDocument();
-    expect(linkedinButton).toHaveAttribute('href', 'https://www.linkedin.com/in/galvao845/?locale=en_US');
+    expect(linkedinButton).toHaveAttribute('href', 'https://www.linkedin.com/in/fonteeboa/?locale=en_US');
     expect(linkedinButton).toHaveAttribute('target', '_blank');
     expect(linkedinButton).toHaveAttribute('type', 'primary');
     expect(linkedinButton).toHaveAttribute('shape', 'circle');
