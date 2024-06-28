@@ -24,7 +24,7 @@ const Social = () => {
         />
         <FloatButton
           icon={<LinkedinOutlined />}
-          href="https://www.linkedin.com/in/galvao845/?locale=en_US"
+          href="https://www.linkedin.com/in/fonteeboa/?locale=en_US"
           target="_blank"
           type="primary"
           shape="circle"
