@@ -21,6 +21,9 @@ Este portfólio é uma aplicação web desenvolvida em React, com o objetivo de 
 
 Esta versão do portfólio foi criada em tons terrosos, com base na ideia de café, proporcionando uma aparência acolhedora e profissional.
 
+## Versão Piloto
+Esta é uma versão piloto do portfólio, não é a versão oficial. Estamos realizando testes de layout e componentes, mas já serve como um começo para o desenvolvimento da versão final.
+
 ## Acesso ao Portfólio
 Você pode acessar a versão publicada do meu portfólio no Vercel através do seguinte link:
 https://react-profile-black.vercel.app

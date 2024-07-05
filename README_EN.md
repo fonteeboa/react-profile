@@ -19,6 +19,9 @@ This portfolio is a web application developed with React, aimed at displaying my
 ## Visual Style
 This version of the portfolio was created in earthy tones, inspired by the idea of coffee, providing a warm and professional appearance.
 
+## Pilot Version
+This is a pilot version of the portfolio, not the official version. We are conducting layout and component tests, but it already serves as a starting point for the development of the final version.
+
 ## Access to the Portfolio
 You can access the published version of my portfolio on Vercel through the following link:
 https://react-profile-black.vercel.app
